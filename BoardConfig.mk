@@ -45,6 +45,9 @@ TARGET_RECOVERY_FSTAB := device/lge/d850/rootdir/etc/fstab.g3
 # NFC
 BOARD_NFC_CHIPSET := pn547
 
+# RIL
+BOARD_RIL_CLASS += ../../../device/lge/d850/ril/
+
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_WLAN_DEVICE := qcwcn

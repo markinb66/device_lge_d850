@@ -46,6 +46,11 @@ PRODUCT_PACKAGES += \
     libwcnss_qmi \
     wcnss_service
 
+# RIL
+PRODUCT_PACKAGES += \
+    init.target.rc \
+    ril_shim
+
 # NFC packages
 PRODUCT_PACKAGES += \
     NfcNci \
